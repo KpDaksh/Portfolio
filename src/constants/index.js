@@ -142,7 +142,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Completed MCA through distance learning with a CGPA of 7.6",
+      "Completed MCA through distance learning with a CGPA of 73%",
     name: "MCA",
     designation: "",
     company: "Chandigarh University ",

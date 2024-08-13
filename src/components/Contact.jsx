@@ -72,9 +72,40 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h1 className={styles.sectionHeadText}>Contact Me</h1>
 
+        <section className="contact-section">
+          <a
+            href="https://www.linkedin.com/in/mrdaksh786/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+          >
+            <p>LinkedIn</p>
+          </a>
+          <a
+            href="https://github.com/KpDaksh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+          >
+            <p>GitHub</p>
+          </a>
+          <a
+            href="mailto:Kpdaksh2000@gmail.com"
+            className="contact-link"
+          >
+            <p>Email Me</p>
+          </a>
+          <a
+            href="tel:+1234567890"
+            className="contact-link"
+          >
+            <p>Call Me</p>
+          </a>
+        </section>
+
+        {/* Uncomment to enable form submission
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -121,6 +152,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+        */}
       </motion.div>
 
       <motion.div
