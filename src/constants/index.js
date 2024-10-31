@@ -90,6 +90,11 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Express JS",
+    icon: figma,
+  },
+
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -202,6 +207,27 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/KpDaksh/E-Commerce",
   },
+  {
+    name: "Posting",
+    description:
+      "This backend project, built with Node.js and Express, provides complete REST API functionality, including operations such as posting, updating, and retrieving data.",
+    tags: [
+      {
+        name: "Express.JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "EJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: creator,
+    source_code_link: "https://github.com/KpDaksh/Rest_API_Backend",
+  },  
   {
     name: "Keep Notes",
     description:
